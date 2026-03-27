@@ -1,0 +1,24 @@
+PriceScout 🔍
+
+O PriceScout é uma solução completa para monitoramento e análise de preços em e-commerces brasileiros. Ele utiliza robôs de automação para coletar dados em tempo real, processa essas informações através de um algoritmo de cálculo ponderado e apresenta os melhores insights em uma dashboard web.
+🚀 Funcionalidades
+
+    Web Scraping Local: Bot desenvolvido em Selenium para extração de dados do Mercado Livre, Kabum e Terabyte.
+
+    Algoritmo de Decisão: Cálculo ponderado que cruza menor preço e maior desconto para rankear o melhor custo-benefício.
+
+    Dashboard Interativa: Visualização de dados centralizada (em desenvolvimento com Django e Plotly).
+
+    Exportação de Dados: Suporte para extração em Excel e integração com Power BI via arquivos .xlsx ou .csv.
+
+🛠️ Tech Stack
+
+    Linguagem: Python 3.11+
+
+    Web Framework: Django 6.0
+
+    Automação: Selenium & Webdriver Manager
+
+    Análise de Dados: Pandas, NumPy e Plotly
+
+    Interface: Bootstrap 5
